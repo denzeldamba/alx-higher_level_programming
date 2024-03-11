@@ -7,4 +7,4 @@ if [ -z "$PYFILE" ]; then
 fi
 
 #Run the Python Script using the filename from the PYFILE variable
-python3 "$PYFILE"  
+exec python3 "$PYFILE"  
