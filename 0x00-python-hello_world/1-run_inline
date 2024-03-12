@@ -1,9 +1,2 @@
 #!/bin/bash
-
-#Check if the PYCODE environment variable is set
-if [ -z "$PYCODE" ]; then
-	echo "Error: PYCODE environment variable is not set."
-	exit 1
-fi
-
-#Run the python code form the PYCODE variable using the Python interpretor
+echo $PYCODE | python3
